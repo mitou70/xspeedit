@@ -13,8 +13,8 @@ public class RobotBoxerTest {
     public static final String GIVEN_ITEMS = "163841689525773";
     public static final String GIVEN_ITEMS2 = "111756329124581597532486263841689525773";
     public static final String EXPECTED_UNOPTIMIZED_ITEMS = "163/8/41/6/8/9/52/5/7/73";
-    public static final String EXPECTED_UNOPTIMIZED_ITEMS2 = "1117/5/63/2/91/24/5/81/5/9/7/532/4/8/62/63/8/41/6/8/9/52/5/7/73";
     public static final String EXPECTED_OPTIMIZED_ITEMS = "19/18/28/37/37/46/5/6/5";
+    public static final String EXPECTED_UNOPTIMIZED_ITEMS2 = "1117/5/63/2/91/24/5/81/5/9/7/532/4/8/62/63/8/41/6/8/9/52/5/7/73";
     public static final String EXPECTED_OPTIMIZED_ITEMS2 = "19/19/19/181/81/82/82/72/72/72/73/63/63/63/64/44/55/55/55";
 
 
