@@ -4,6 +4,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import static org.apache.logging.log4j.util.Strings.isBlank;
+
 public class RobotBoxer {
 
     public static String boxItems(String itemsAsString) {
@@ -24,7 +26,7 @@ public class RobotBoxer {
     }
 
     protected static List<Integer> convertStringToListOfIntegers(String itemsAsString) {
-        if(itemsAsString.isEmpty())
+        if(isBlank(itemsAsString))
             return Collections.emptyList();
         List<Integer> itemsAsIntegers = Stream.of(itemsAsString.split("")).map(Integer::parseInt).collect(Collectors.toList());
         return itemsAsIntegers;
